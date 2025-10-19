@@ -1,12 +1,29 @@
-.lan1{
-    color:violet;
+.lan1 {
+    color: violet;
     font-size: 20px;
 }
-.lan2{
-    color:indigo;
+
+.lan2 {
+    color: indigo;
     font-size: 30px;
 }
-.lan3{
-    color:blue;
+
+.lan3 {
+    color: blue;
     font-size: 15px;
+}
+
+.yesbutton {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nobutton {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
 }
