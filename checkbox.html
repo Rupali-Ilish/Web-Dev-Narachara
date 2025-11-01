@@ -6,26 +6,43 @@
     <title>Check Box</title>
   </head>
   <body>
-    <h1>What toppings do you want for your pizza?</h1>
-    <input id="topping-1" type="checkbox" name="pineapple" />
-    <label for="topping-1">Pineapple</label>
-    <br />
-    <input id="topping-2" type="checkbox" name="pepparoni" />
-    <label for="topping-2">Pepparoni</label>
-    <br />
-    <input id="topping-3" type="checkbox" name="mushroom" />
-    <label for="topping-3">Mushroom</label>
-    <br />
-    <input id="topping-4" type="checkbox" name="extra cheese" />
-    <label for="topping-4">Extra Cheese</label>
-    <br>
-    <input id="topping-5" type="checkbox" name="black olives" />
-    <label for="topping-5">Black Olives</label>
-    <br>
-    <input id="topping-6" type="checkbox" name="jalapeno" />
-    <label for="topping-6">Jalapeno</label>
-    <br> <br>
-    <button>Submit</button>
-
-</body>
+    <form action="/api/v1/pizza" method="post">
+      <h2>What toppings do you want for your pizza?</h2>
+      <input id="topping-1" type="checkbox" name="pineapple" />
+      <label for="topping-1">Pineapple</label>
+      <br />
+      <input id="topping-2" type="checkbox" name="pepparoni" />
+      <label for="topping-2">Pepparoni</label>
+      <br />
+      <input id="topping-3" type="checkbox" name="mushroom" />
+      <label for="topping-3">Mushroom</label>
+      <br />
+      <input id="topping-4" type="checkbox" name="extra cheese" />
+      <label for="topping-4">Extra Cheese</label>
+      <br />
+      <input id="topping-5" type="checkbox" name="black olives" />
+      <label for="topping-5">Black Olives</label>
+      <br />
+      <input id="topping-6" type="checkbox" name="jalapeno" />
+      <label for="topping-6">Jalapeno</label>
+      <br />
+      <input id="topping-7" type="checkbox" name="sausage" />
+      <label for="topping-7">Sausage</label>
+      <br />
+      <br />
+      <h2>What type of crust do you want?</h2>
+      <input id="crust-1" type="radio" name="crust" value="thin" />
+      <label for="crust-1">Thin Crust</label>
+      <br />
+      <input id="crust-2" type="radio" name="crust" value="thick" />
+      <label for="crust-2">Thick Crust</label>
+      <br />
+      <input id="crust-3" type="radio" name="crust" value="stuffed" />
+      <label for="crust-3">Stuffed Crust</label>
+      <br />
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
